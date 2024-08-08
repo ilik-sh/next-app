@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.IconButton {
+  border-radius: 0px;
+}
+
+.Toolbar {
+  justify-content: flex-end;
+}
