@@ -11,6 +11,7 @@ import { Box, Typography } from "@mui/material";
 
 import styles from "./sign-in.module.css";
 import { LogIn } from "lucide-react";
+import Link from "next/link";
 
 type Props = {};
 
@@ -42,6 +43,7 @@ export default function SignInModal({}: Props) {
         onSubmit={handleSubmit(onSubmit)}
         isLoading={false}
       />
+      <Link href={'/signUp'} replace={true}>Регистрация</Link>
     </Box>
   );
 }

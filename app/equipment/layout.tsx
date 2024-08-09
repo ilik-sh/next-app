@@ -9,8 +9,6 @@ export default function Layout({
 }) {
   return (
     <>
-      <Link href="/signIn">SignIn</Link>
-      <Link href="/signUp">SignUp</Link>
       <div>{children}</div>
       <div>{auth}</div>
     </>

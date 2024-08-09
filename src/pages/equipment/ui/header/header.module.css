@@ -1,0 +1,22 @@
+.HeaderBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 20px 1px hsla(0, 0%, 47%, 1);
+
+}
+.NavBox {
+    display: flex;
+    gap: 1rem;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.UserBox{
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
