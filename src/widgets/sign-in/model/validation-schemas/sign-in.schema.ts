@@ -1,11 +1,8 @@
-import { z } from "zod";
+import { z } from 'zod';
 
 export const signInSchema = z.object({
-  username: z
-    .string()
-    .min(1, { message: "Username is too short" })
-    .max(50, { message: "Username is too long" }),
-  password: z.string().min(8, { message: "Password is too short" }),
+  username: z.string(),
+  password: z.string(),
 });
 
 export type SignInSchema = z.infer<typeof signInSchema>;

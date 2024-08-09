@@ -1,6 +1,8 @@
-import { SignUp } from "@/widgets/sign-up";
-import { Modal } from "@/shared/ui//modal";
-import React from "react";
+import React from 'react';
+
+import { SignUp } from '@/widgets/sign-up';
+
+import { Modal } from '@/shared/ui//modal';
 
 type Props = {};
 
