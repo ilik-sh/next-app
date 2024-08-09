@@ -1,0 +1,1 @@
+export { default as AddEquipment } from './ui/add-equipment/add-equipment.comp'

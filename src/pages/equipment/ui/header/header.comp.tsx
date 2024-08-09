@@ -18,7 +18,7 @@ export default function Header({}: Props) {
         <Box className={styles.NavBox}>
             <Link href={'/equipment'}> Оборудование</Link>
             <Link href={'/rent'}> Аренда</Link>
-            <Link href={'/myEquipment'}> Мое оборудование</Link>
+            <Link href={'/dashboard'}> Мое оборудование</Link>
         </Box>
         <Typography variant='h4' className={clsx(styles.TitleTypography, play.className)}>Логотип</Typography>
         <Box className={styles.UserBox}>
